@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--slick-->
+    <link rel="stylesheet" href="./css/slick/slick.css">
+    <link rel="stylesheet" href="./css/slick/slick-theme.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--slick-->
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="shutter"></div>
+    <ul id="slider" class="slider">
+        <li class="container">
+            <div id="cover" class="content">
+                <img src="img/Welcome to.gif">
+            </div>
+        </li>
+
+        <li id="profile" class="container">
+            <div class="content">
+                <div class="myself">
+                    <img src="img/About.gif">
+                    <div class="flex">
+                        <img id="face" src="img/A423D7DD-1796-4C19-9936-234F01CAD239.jpg">
+                        <div class="introduce">
+                            <p class="name">
+                                福井 琢生<br />　～フリーランスWEBエンジニア～</p>
+                            <p class="explain">
+                                新卒で食品関係会社の営業として3年勤務。<br />
+                                その後、退職してサイト制作の勉強を0から始める。<br />
+                                現在はサイト設計・デザイン・コーディングをメインに活動。<br /><br />営業経験を活かし、お客様のニーズを汲み取る話し合い・提案が得意。<br />
+                                <strong>「ホームページを作りたいけど、どのようなものがいいか分からない。」</strong>という声に、制作段階からお伺いします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li id="skill" class="container">
+            <div id="fontawesome" class="mark">
+                <img class="skillimg" src="img/Skill.gif">
+                <ul class="skillbox">
+                    <li class="flexbox">
+                        <h2>HP・LP制作</h2>
+                        <div class="resflex">
+                            <img src="img/HP&LP.jpg">
+                            <p>入念な打ち合わせで、お客様のご要望に合ったサイトを設計からデザインまでまとめてご対応します。</p>
+                        </div>
+                    </li>
+
+                    <li class="flexbox">
+                        <h2>WordPress</h2>
+                        <div class="resflex">
+                            <img src="img/WordPress.jpg">
+                            <p>ご自身でサイトの更新をされたい場合におすすめです。制作から更新の方法・アフターケアまでお任せください。</p>
+                        </div>
+                    </li>
+                    <li class="flexbox">
+                        <h2>レスポンシブ</h2>
+                        <div class="resflex">
+                            <img src="img/responsive.jpg">
+                            <p>サイトの大きさは、モバイルごとに変える必要があるって知っていましたか？パソコンからスマートフォンまで、あらゆるモバイルに対応したサイトを作ります。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <!--  
+        <li id="works" class="container">
+            <div id="block" class="content">
+                <img src="img/Works.gif">
+                <img id="isara" src="img/Web 1920 – 1.png">
+            </div>
+        </li>
+         -->
+        <li id="price" class="container ">
+            <div class="pricetable">
+                <img src="img/Price.gif">
+                <table>
+                    <tr>
+                        <th>サイト制作</th>
+                        <td>￥80,000～</td>
+                    </tr>
+                    <tr>
+                        <th>LP制作</th>
+                        <td>￥40,000～</td>
+                    </tr>
+                    <tr>
+                        <th>コーディング(トップ) </th>
+                        <td>￥15,000～</td>
+                    </tr>
+                    <tr>
+                        <th>コーディング(下層部) </th>
+                        <td>￥10,000～</td>
+                    </tr>
+                    <tr>
+                        <th>WordPress化</th>
+                        <td>￥40,000～</td>
+                    </tr>
+                    <tr>
+                        <th>レスポンシブ化</th>
+                        <td>￥10,000～</td>
+                    </tr>
+                    <tr>
+                        <th>サーバー・ドメイン取得</th>
+                        <td>￥5,000～</td>
+                    </tr>
+                </table>
+                <p>※内容に応じて価格が変動いたします。あらかじめご了承ください。</p>
+            </div>
+        </li>
+
+        <li id="contact" class="container">
+            <div class="line">
+                <img src="img/Contact.gif">
+                <div class="font">
+                    <i class="far fa-envelope">お問い合わせはこちら⇓</i>
+                    <div id="form">
+                        <p class="googleform"><a href="https://forms.gle/QT3TDstTVqwRfLwm7">お問い合わせフォーム</a></p>
+                        <p>or</p>
+                        <a href="https://lin.ee/3FZGvzdOW">
+                            <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36"
+                                border="0"></a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+ポートフォリオURL
+https://takumifp.com/portofolio/
+
+
+　FTPホスト名（FTPサーバー名）　　： sv8567.xserver.jp
+　FTPユーザー名（FTPアカウント名）： takumilog
+　FTPパスワード　　　　　　　　　 ： zm41hjxm
+
+
